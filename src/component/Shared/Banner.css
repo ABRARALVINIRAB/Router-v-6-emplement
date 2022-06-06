@@ -1,0 +1,55 @@
+.carousel-container{
+    width: 100%;
+    height: 550px;
+}
+.carousel-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card-container{
+    width: 100%;
+    height: 550px;
+   
+    overflow: hidden;
+    position: relative;
+}
+.card-container img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.card-container::before{
+    content: '';
+    background-color: rgb(26, 217, 227);
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    transform: translateY(-100%);
+    transition: .5s;
+    opacity: .4;
+
+}
+.card-container:hover::before{
+    transform: translateY(0%);
+    
+}
+.title{
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: white;
+    transform: translateY(100%);
+    transition: .5s;
+    
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+.card-container:hover .title{
+    transform: translateY(30%);
+}
+

@@ -1,0 +1,12 @@
+.logo-container {
+    height: 50px;
+    width: 100px;
+}
+.logo-container img{
+    height: 100%;
+    width: 100%;
+}
+.btn-container{
+    display: flex;
+    align-items: flex-end;
+}

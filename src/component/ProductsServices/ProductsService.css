@@ -1,0 +1,55 @@
+.img-div{
+    height: 350px;
+    width: 300px;
+}
+.img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.item-div{
+    margin-left: 0;
+    padding-left: 0;
+    border-left: 0;
+    margin: 5px solid red;
+    
+}
+.about-element-text{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+.span-arrow{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    color: orangered;
+    
+}
+.product-element{
+    background-color: #e7cf8a;
+}
+.span-sign{
+    height: 20px;
+    width: 20px;
+   color: white;
+   border-radius: 50%;
+   background-color: rgb(116, 218, 116);
+
+}
+.forms{
+    margin-right:100px ;
+}
+.btn-online{
+    height: 30px;
+    width: 150px;
+    border-radius: 10px;
+}
+.color-online{
+    color: red;
+}
+                          
+.color-trading{
+color: green;
+}
